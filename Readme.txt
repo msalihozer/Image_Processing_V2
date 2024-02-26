@@ -18,14 +18,12 @@ Pyrebase library
 Installation
 Ensure you have Python 3.x installed on your system.
 Install the required libraries:
-Copy code
 pip install opencv-python
 pip install firebase-admin
 pip install pyrebase
 Obtain the Firebase Admin SDK JSON file and place it in the project directory.
 Usage
 Run the script:
-Copy code
 python Image_Processing_v2.py
 Enter the interval (in seconds) for capturing images when prompted.
 The script will capture images from the connected cameras, detect motion, and send alerts to the Firebase Realtime Database when motion is detected.
